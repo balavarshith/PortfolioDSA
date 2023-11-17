@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito+Sans:opsz@6..12&family=Open+Sans&family=Poppins:wght@300&display=swap');
+
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+.main-div
+{
+    height : 100vh;
+    width : 100vw;
+    border-style : solid;
+    position : fixed;
+}
+
+.sub-div
+{
+    height : 95vh;
+    width : 30vw;
+    background-color : red;
+    position : fixed;
+    left : 35vw;
+    margin-top : 2.5vh;
+    transition : 1s;
+    background-size : cover;
+}
+
+#block1
+{
+    height : 100vh;
+    width : 50vw;
+    position: absolute;
+    transition : 1s;
+    background-color : #CE5A67;
+    background-color : #F4BF96;
+}
+
+#block2
+{
+    height : 100vh;
+    width : 50vw;
+    position: absolute;
+    right : 0px;
+    transition : 1s;
+    background-color : #CE5A67;
+    background-color : #F4BF96;
+}
+
+#firstHalf,#secondHalf
+{
+    font-weight : bold;
+    font-size : 100px;
+    transition : 1s;
+    color : #FCF5ED;
+}
+
+#arrowBox1
+{
+    height : 8vh;
+    width : 8vh;
+    position : fixed;
+    right : 40px;
+    z-index : 100;
+    border-style : solid;
+    border-radius : 50%;
+    text-align : center;
+    top : 46vh;
+    border-width : 2px;
+    visibility : hidden;
+    cursor: pointer;
+}
+
+#page2
+{
+    transition : 1s;
+}
+
+.second-page-h-edit
+{
+    font-size : 70px;
+    margin-top : 30px;
+    margin-left : 50px;
+    color : #3A4D39;
+    font-family: 'Open Sans', sans-serif;
+    font-weight : bold;
+}
+
+#secondPageBlock1,#secondPageBlock2,#secondPageBlock3
+{
+    height : 350px;
+    width : 350px;
+    margin-top : 250px;
+    margin-left : 15px;
+    margin-right : 15px;
+    transition: 1s;
+}
+
+img 
+{
+    height : 200px;
+    width : 350px;
+    border-top-right-radius : 10px;
+    border-top-left-radius : 10px;
+}
+
+.second-page-block-edit
+{
+    width : 350px;
+    background-color : whitesmoke;
+    border-bottom-left-radius : 10px;
+    border-bottom-right-radius : 10px;
+}
+
+.second-page-block-h-edit
+{
+    font-size : 18px;
+    text-align : center;
+    margin-top : 10px;
+    color : #4F6F52;
+    font-weight : bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.second-page-block-p-edit
+{
+    font-size : 12px;
+    text-align : center;
+    font-family: 'Poppins', sans-serif;
+    font-weight : bold;
+    color : #739072;
+}
+
+.second-page-block-i-edit
+{
+    font-size : 15px;
+    margin-left : 10px;
+}
+
+#arrowBox2
+{
+    height : 8vh;
+    width : 8vh;
+    border-style : solid;
+    border-radius : 50%;
+    text-align : center;
+    margin-top : 46vh;
+    border-width : 2px;
+    cursor: pointer;
+    position : absolute;
+    left : 40px;
+    top : 0vh;
+}
+
+#arrowBox3
+{
+    height : 8vh;
+    width : 8vh;
+    border-style : solid;
+    border-radius : 50%;
+    text-align : center;
+    top : 46vh;
+    border-width : 2px;
+    cursor: pointer;
+    position : absolute;
+    right : 40px;
+}
+
+#page3
+{
+    transition : 1s;
+}
+
+.row-edit th
+{
+    font-size : 20px;
+    padding-right : 50px;
+    padding-top : 15px;
+    padding-bottom : 15px;
+    padding-left : 35px;
+    width : 20vw;
+}
+
+table
+{
+    border-width : 2px;
+    border-style : none;
+    margin-top : 50px;
+    margin-left : 30vw;
+    border-collapse : collapse;
+    border-radius : 50px;
+    box-shadow: black;
+}
+
+.table-head-row
+{
+    background-color : #F3B664;
+}
+
+.table-heading
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight : bold;
+    color : black;
+}
+
+.row-contents-edit
+{
+    border-bottom : 2px solid #F3B664;
+    background-color : white;
+}
+
+.row-contents-edit:nth-of-type(even)
+{
+    background-color : #f3f3f3;
+}
+
+.row-contents-edit:hover
+{
+    background-color : #ffff99;
+}
+
+#arrowBox4
+{
+    height : 8vh;
+    width : 8vh;
+    border-style : solid;
+    border-radius : 50%;
+    text-align : center;
+    margin-top : 46vh;
+    border-width : 2px;
+    cursor: pointer;
+    position : absolute;
+    left : 40px;
+    top : 0vh;
+}
+
+#arrowBox5
+{
+    height : 8vh;
+    width : 8vh;
+    border-style : solid;
+    border-radius : 50%;
+    text-align : center;
+    top : 46vh;
+    border-width : 2px;
+    cursor: pointer;
+    position : absolute;
+    right : 40px;
+}
+
+#page4
+{
+    transition: 1s;
+}
+
+#arrowBox6
+{
+    height : 8vh;
+    width : 8vh;
+    border-style : solid;
+    border-radius : 50%;
+    text-align : center;
+    margin-top : 46vh;
+    border-width : 2px;
+    cursor: pointer;
+    position : absolute;
+    left : 40px;
+    top : 0vh;
+}
+
+#arrowBox7
+{
+    height : 8vh;
+    width : 8vh;
+    border-style : solid;
+    border-radius : 50%;
+    text-align : center;
+    top : 46vh;
+    border-width : 2px;
+    cursor: pointer;
+    position : absolute;
+    right : 40px;
+}
+
+#arrowBox8
+{
+    height : 8vh;
+    width : 8vh;
+    border-style : solid;
+    border-radius : 50%;
+    text-align : center;
+    margin-top : 46vh;
+    border-width : 2px;
+    cursor: pointer;
+    position : absolute;
+    left : 40px;
+    top : 0vh;
+}
+
+#arrowBox9
+{
+    height : 8vh;
+    width : 8vh;
+    border-style : solid;
+    border-radius : 50%;
+    text-align : center;
+    top : 46vh;
+    border-width : 2px;
+    cursor: pointer;
+    position : absolute;
+    right : 40px;
+}
+
+#page5
+{
+    transition : 1s;
+}
+
+.hackathon-card-edit
+{
+    width : 500px;
+    height : 600px;
+}
+
+.hackathon-card-edit img 
+{
+    width : 500px;
+    height : 300px;
+    border-radius : 0px;
+}
+
+.hackerrankUrl-edit
+{
+    color : #39A7FF;
+    font-size : 25px;
+    font-weight : bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-top : 50px;
+    margin-left : 50px;
+}
+
+.hackerrank-img-edit
+{
+    width : 75vw;
+    margin-left : 12.5vw;
+    margin-top : 100px;
+    height : 30vh;
+}
+
+#page6
+{
+    transition : 1s;
+}
+
+#arrowBox10
+{
+    height : 8vh;
+    width : 8vh;
+    border-style : solid;
+    border-radius : 50%;
+    text-align : center;
+    margin-top : 46vh;
+    border-width : 2px;
+    cursor: pointer;
+    position : absolute;
+    left : 40px;
+    top : 0vh;
+}
